@@ -1,0 +1,18 @@
+{"leitor": "Maria", "livros_lidos":[{"nome_livro":"Livro A","categoria_livro":"Romance"}, {"nome_livro":"Livro B","categoria_livro":"Romance"}]}
+{"leitor": "José", "livros_lidos":[{"nome_livro":"Livro C","categoria_livro":"Comedia"}, {"nome_livro":"Livro D","categoria_livro":"Crime"}, {"nome_livro":"Livro E","categoria_livro":"Crime"}]}
+{"leitor": "Chico", "livros_lidos":[{"nome_livro":"Livro D","categoria_livro":"Crime"}, {"nome_livro":"Livro E","categoria_livro":"Crime"}]}
+{"leitor": "Pedro", "livros_lidos":[{"nome_livro":"Livro F","categoria_livro":"Técnico"}]}
+{"leitor": "Paulo", "livros_lidos":[{"nome_livro":"Livro G","categoria_livro":"Técnico"}, {"nome_livro":"Livro H","categoria_livro":"Técnico"}]}
+{"leitor": "Paula", "livros_lidos":[{"nome_livro":"Livro C","categoria_livro":"Comedia"}, {"nome_livro":"Livro F","categoria_livro":"Técnico"}, {"nome_livro":"Livro G","categoria_livro":"Técnico"}, {"nome_livro":"Livro H","categoria_livro":"Técnico"}]}
+{"leitor": "Flor", "livros_lidos":[{"nome_livro":"Livro A","categoria_livro":"Romance"}, {"nome_livro":"Livro B","categoria_livro":"Romance"}, {"nome_livro":"Livro E","categoria_livro":"Crime"}]}
+{"leitor": "Linda", "livros_lidos":[{"nome_livro":"Livro A","categoria_livro":"Romance"}, {"nome_livro":"Livro B","categoria_livro":"Romance"}, {"nome_livro":"Livro C","categoria_livro":"Comedia"}]}
+{"leitor": "Paulina", "livros_lidos":[{"nome_livro":"Livro C","categoria_livro":"Comedia"}, {"nome_livro":"Livro H","categoria_livro":"Comedia"}, {"nome_livro":"Livro F","categoria_livro":"Técnico"}]}
+{"leitor": "Mariazinha", "livros_lidos":[{"nome_livro":"Livro A","categoria_livro":"Romance"}, {"nome_livro":"Livro B","categoria_livro":"Romance"}]}
+{"leitor": "Josezinho", "livros_lidos":[{"nome_livro":"Livro C","categoria_livro":"Comedia"}, {"nome_livro":"Livro D","categoria_livro":"Crime"}, {"nome_livro":"Livro E","categoria_livro":"Crime"}]}
+{"leitor": "Chiconildo", "livros_lidos":[{"nome_livro":"Livro D","categoria_livro":"Crime"}, {"nome_livro":"Livro E","categoria_livro":"Crime"}]}
+{"leitor": "Pedronildo", "livros_lidos":[{"nome_livro":"Livro F","categoria_livro":"Técnico"}]}
+{"leitor": "Paulozildo", "livros_lidos":[{"nome_livro":"Livro G","categoria_livro":"Técnico"}, {"nome_livro":"Livro H","categoria_livro":"Técnico"}]}
+{"leitor": "Paulazina", "livros_lidos":[{"nome_livro":"Livro C","categoria_livro":"Comedia"}, {"nome_livro":"Livro F","categoria_livro":"Técnico"}, {"nome_livro":"Livro G","categoria_livro":"Técnico"}, {"nome_livro":"Livro H","categoria_livro":"Técnico"}]}
+{"leitor": "Florinda", "livros_lidos":[{"nome_livro":"Livro A","categoria_livro":"Romance"}, {"nome_livro":"Livro B","categoria_livro":"Romance"}, {"nome_livro":"Livro E","categoria_livro":"Crime"}]}
+{"leitor": "Lindanina", "livros_lidos":[{"nome_livro":"Livro A","categoria_livro":"Romance"}, {"nome_livro":"Livro B","categoria_livro":"Romance"}, {"nome_livro":"Livro C","categoria_livro":"Comedia"}]}
+{"leitor": "Paulita", "livros_lidos":[{"nome_livro":"Livro C","categoria_livro":"Comedia"}, {"nome_livro":"Livro H","categoria_livro":"Comedia"}, {"nome_livro":"Livro F","categoria_livro":"Técnico"}]}

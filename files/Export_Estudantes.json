@@ -1,0 +1,25 @@
+{'Bruno':{'Livro I': 'Saúde'}}
+{'Chico':{'Livro D': 'Crime', 'Livro E': 'Crime'}}
+{'Chiconildo':{'Livro D': 'Crime', 'Livro E': 'Crime'}}
+{'Emma':{'Livro BC': 'Infantil'}}
+{'Enzo':{'Livro AB': 'Fantasia'}}
+{'Eric':{'Livro BC': 'Infantil'}}
+{'Erika':{'Livro J': 'Pais e Filhos'}}
+{'Flor':{'Livro A': 'Romance', 'Livro B': 'Romance', 'Livro E': 'Crime'}}
+{'Florinda':{'Livro A': 'Romance', 'Livro B': 'Romance', 'Livro E': 'Crime'}}
+{'Josezinho':{'Livro C': 'Comedia', 'Livro D': 'Crime', 'Livro E': 'Crime'}}
+{'José':{'Livro C': 'Comedia', 'Livro D': 'Crime', 'Livro E': 'Crime'}}
+{'Linda':{'Livro A': 'Romance', 'Livro B': 'Romance', 'Livro C': 'Comedia'}}
+{'Lindanina':{'Livro A': 'Romance', 'Livro B': 'Romance', 'Livro C': 'Comedia'}}
+{'Maria':{'Livro A': 'Romance', 'Livro B': 'Romance'}}
+{'Mariazinha':{'Livro A': 'Romance', 'Livro B': 'Romance'}}
+{'Paula':{'Livro C': 'Comedia', 'Livro F': 'Técnico', 'Livro G': 'Técnico', 'Livro H': 'Técnico'}}
+{'Paulazina':{'Livro C': 'Comedia', 'Livro F': 'Técnico', 'Livro G': 'Técnico', 'Livro H': 'Técnico'}}
+{'Paulina':{'Livro C': 'Comedia', 'Livro H': 'Comedia', 'Livro F': 'Técnico'}}
+{'Paulita':{'Livro C': 'Comedia', 'Livro H': 'Comedia', 'Livro F': 'Técnico'}}
+{'Paulo':{'Livro G': 'Técnico', 'Livro H': 'Técnico'}}
+{'Paulozildo':{'Livro G': 'Técnico', 'Livro H': 'Técnico'}}
+{'Pedro':{'Livro F': 'Técnico'}}
+{'Pedronildo':{'Livro F': 'Técnico'}}
+{'Ricardo':{'Livro K': 'Jogos'}}
+{'Carol': {'Livro T': 'Comédia', 'Livro V': 'Poesia'}}
