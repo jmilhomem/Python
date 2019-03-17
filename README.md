@@ -9,4 +9,4 @@ With the propose of studying and practicing, there are scripts using Jupyter Not
 * Creating data files in JSON and TXT formats
 * Using a GET request to read data from an API and create a dataframe that will show the data on a table-based view.
 * Reviewing some Python Concepts
-* Reviewing Object Oriented Programing.
+* Reviewing Object Oriented Programming.
