@@ -169,5 +169,8 @@ def find_movie(type_reasearch, filter_detail):
     return df_movies
 
 
-# Call the main function
-start_process()
+# Call the main function 
+# if the module that is being used to executeis similar, it will return "__main__" and the script will start by the main function
+# if it is called by other module, then, the functions will be available
+if __name__ == "__main__":
+    start_process()
