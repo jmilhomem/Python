@@ -1,0 +1,3 @@
+Name,Age, Degree, University
+Mary,29,Math,UB
+Jose,30,Math,UB
