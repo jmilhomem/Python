@@ -4,7 +4,7 @@ This repo was created to consolidate the most important topics studied and pract
 
 ![alt text](https://i1.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image3-1.png?fit=756%2C277&ssl=1 "")
 
-## Some topics that are being considered: 
+## Some topics: 
 
 * Manipulation of files and Python objects:  
   1. Reading data from JSON and TXT files
