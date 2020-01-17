@@ -1,10 +1,11 @@
 ## Python
 
-This repo was created to consolidate the most important topics studied and practiced related to Python, which is available in Jupyter Notebook.
+This repo was created to consolidate the most important topics studied and practiced regarding Python, which is available in Jupyter Notebook.
 
 ![alt text](https://i1.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image3-1.png?fit=756%2C277&ssl=1 "")
 
-Some topics that are being considered:
+## Some topics that are being considered: 
+
 * Manipulation of files and Python objects:  
   1. Reading data from JSON and TXT files
   2. Analysing data from data files using Series or Dataframes from Pandas
