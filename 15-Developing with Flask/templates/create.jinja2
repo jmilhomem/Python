@@ -1,0 +1,23 @@
+{% extends 'base.jinja2' %}
+
+{% block content %}
+<h1>Create post</h1>
+<form action="/post/create" method="POST">
+	<!-- After the form is filled, and we press the submit button, the web browser sends another GET request to -->
+	<!-- this URL /post/form and it sends data as a query string parameters -->
+	<!-- Example: http://127.0.0.1:5000/post/form?title=teste&content=teste123 -->
+	<div>
+		<label for="title">Title</label>
+		<input type="text" name="title" id="title" />
+	</div>
+
+	<div>
+		<label for="content">Content</label>
+		<textarea name="content" id="content"></textarea>
+	</div>
+
+	<div>
+		<input type="submit"/>
+	</div>
+</form>
+{% endblock %}
