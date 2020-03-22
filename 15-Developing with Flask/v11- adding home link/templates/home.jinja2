@@ -1,0 +1,19 @@
+{% extends 'base.jinja2' %}
+
+
+{% block content %}
+
+<h1>My Blog</h1>
+<h2>Posts</h2>
+<ul>
+	<!-- To define a dynamic link, it can be used the forloop to get the post_id and post(content)-->
+	<!-- To create the link dynamicaly, we are using the url_for function, passing the post page and the post_id -->
+	<!-- If I go to the http://127.0.0.1:5000/post/create endpoint and pass the parameters, it will create another endpoint in the homepage. However it won't persist this data as the "database" is in memory -->
+
+	{% for post_id, post in posts.items() %}
+		<li><a href="{{ url_for('post', post_id=post_id) }}">{{ post['title'] }}</a></li>
+	{% endfor %}
+
+</ul>
+
+{% endblock %}

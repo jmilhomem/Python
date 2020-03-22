@@ -35,29 +35,30 @@ def post(post_id):
         return render_template("404.jinja2", message=f"A post with id {post_id} was not found") 
 
 
-# Another endpoint to get the parameters inside the form created to manipulate data
-# and get the data as a query string parameters
-@app.route("/post/form")
-def form():
-    """Get the parameters inputed inside the form."""
-    return render_template("create.jinja2")
-
-
 # This route will be arrived at looking like this:
 # 127.0.0.1:5000/post/create
 # http://127.0.0.1:5000/post/form?title=teste&content=teste123
-# It will also have some inner data as part of the payload (which is hidden), containing the data in the form.
-@app.route("/post/create")
+# It will also have some inner data as part of the payload (which is hidden - not using string parameters), 
+# containing the data in the form.
+# To enable the endpoint below to do receive post requests besides get requests, include the method below.
+@app.route("/post/create", methods=["POST", "GET"])
 def create():
-    # Behind the scenes, Flask is turning the query string parameters into a dictionary
-    title = request.arg.get("title")  # This takes the "Hello" from the form contents. 
-    content = request.arg.get("content")  # This takes the "This is the post content" form the form contents.
-    post_id = len(posts)
-    posts[post_id] = {"id": post_id, "title": title, "content": content}
+    """Endpoint that enables to get the parameters inside the form created to manipulate data
+    and get the data as a query string parameters + post the data requested"""
+    if request.method == "POST":
+        # Behind the scenes, Flask is turning the query string parameters into a dictionary
+        # request.form gets data from the payload in a hidden way. To do that it is necessay to change the jinja
+        # including the method inside the form
+        title = request.form.get("title")  # This takes the "Hello" from the form contents. request.
+        content = request.form.get("content")  # This takes the "This is the post content" form the form contents.
+        post_id = len(posts)
+        posts[post_id] = {"id": post_id, "title": title, "content": content}    
 
-    # The url_for method is going to use the function post to get the URL, passing the post_id parameter
-    # redirect method is going to redirect the browser to the url_for's result url
-    return redirect(url_for("post", post_id=post_id))
+        # The url_for method is going to use the function post to get the URL, passing the post_id parameter
+        # redirect method is going to redirect the browser to the url_for's result url
+        return redirect(url_for("post", post_id=post_id))
+    """Get the parameters inputed inside the form."""
+    return render_template("create.jinja2")
 
 
 if __name__ == "__main__":
